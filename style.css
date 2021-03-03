@@ -1,0 +1,171 @@
+body { 
+    background: rgb(3, 9, 12) url("/img/pexels-nubia-navarro-\(nubikini\)-385998.jpg") no-repeat fixed center;
+    background-color: #130d0d; 
+    height: 500px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ 
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.navbar-nav{
+    position: absolute;
+    left: 90%;
+    transform: translatex(-50%);
+}
+.navbar-toggler{
+    position: absolute;
+    left: 90%;
+    transform: translatex(-50%);
+}
+.navbar-brand{
+    font-size:x-large;
+    font-family: 'Alfa Slab One', cursive;
+}
+.nav-link {
+    font-family: 'Bree Serif', serif;
+    font-size: larger;
+
+}
+.HOME-1{
+    /*background-color: rgb(124, 109, 120);*/
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+}
+h1{
+    top: 15%;
+    position: relative;
+    text-align: center;
+    font-size: 340%;
+    word-spacing: 10px;
+    font-family: 'Alfa Slab One', cursive;
+    color:white;
+}
+.About{
+    /*background-color: rgb(124, 109, 120);*/
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+}
+.About-1>h1{
+    top:40px;
+}
+.About-1> p1{
+    position: absolute;
+    text-align: center;
+ margin-top: 40px;
+ margin-left: 40px;
+ font-size: larger;
+ color: white;
+ word-spacing: 5px;
+ font-size: 150%;
+}
+
+/*.services{
+    background-color: rgb(124, 109, 120);
+}*/
+.card-img-top{
+    width: 80%;
+    height: 60%;
+}
+.card1-img-top{
+    width: 90%;
+    height: 380px;
+}
+.card2-img-top{
+    width: 90%;
+    height: 380px;
+}
+.card3-img-top{
+    width: 90%;
+    height: 380px;
+}
+.card-title{
+    font-family: 'Mirza', cursive;
+    font-size: 200%;
+    color: rgb(255, 254, 254);
+    text-shadow: black;
+
+}
+.card-text{
+    font-size: 150%;
+    color: rgb(253, 242, 242);
+}
+
+.Contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.card-cont{
+    background: #2f3542;
+    padding: 0 20%;
+    margin: 0 10%;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.card-icon{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+.card-cont p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 20%;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card-cont:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+@media screen and (max-width:800px) {
+    .contact-info{
+        flex-direction: column;
+    }
+    .card-cont{
+        width: 100%;
+    max-width: 300px;
+    margin: 10px 0;
+    }
+}
+.cont h1{
+    top: -70px;
+}
